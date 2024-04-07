@@ -92,6 +92,6 @@ myobj = gTTS(text=translatedText, lang=language, tld=dialect, slow=False)
 myobj.save("queenglish.mp3")
 
 # Playing the converted file
-os.system("mpg321 queenglish.mp3")
+os.system("start queenglish.mp3")
 
 print('test2')
